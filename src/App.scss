@@ -1,0 +1,49 @@
+$primary-color:rgb(0, 255, 200);
+@import 'animate.css';
+@font-face
+{
+  font-family:'Helvetica Neue';
+  src : url(../fonts/helvetica-neu.ttf) format('ttf')
+}
+@font-face
+{
+  font-family:'La Belle Aurore';
+  src : url(../fonts/LaBelleAurore.woff2) format('woff2')
+}
+@font-face
+{
+  font-family:'Coolvetica';
+  src : url(../fonts/CoolveticaRg-Regular.woff2) format('woff2')
+}
+input,
+textarea {
+  font-family:'Helvetica Neue';
+  // src : url(../fonts/helvetica-neu.ttf) format('ttf')
+}
+
+.App{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+}
+
+.btn{
+  border-radius: 34px;
+  border:none;
+  color:white;
+  font-size: 16px;
+  padding: 11px 26px;
+  background:#0E4931;
+}
+.btn:hover{
+  background-color: aliceblue;
+  font-weight: bold;
+  color:#0E4931;
+  border: 1px solid #0E4931;
+  cursor: pointer;
+
+}
+// .curve{
+// height:min-content;
+// bottom: 2px;
+
+// }

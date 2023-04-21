@@ -1,0 +1,49 @@
+.upperRight{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 87, 128);
+    height: 100vh;
+    padding:0.5rem 3.5rem;
+    margin:2rem;
+    }
+    .upperRight>:nth-child(1){
+        text-align: center;
+        color: #0E4931;
+        // color: black;
+         font-weight: bold;
+        font-size: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .skills{
+        display:grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(3,auto);
+        }
+    
+    .skills img{
+        width:200px;
+        margin: 2px;
+        padding: 2px;
+        height: 200px;
+          }
+
+
+
+          @media (max-width:1170px){
+            .skills{
+                display:grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(3,auto);
+                
+                }
+            
+            .skills img{
+                width: 100%;
+                margin: 2px;
+                padding: 2px;
+                height: 50px;
+                  }
+          }
